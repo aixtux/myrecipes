@@ -23,7 +23,7 @@
  - numpy
  - zeromq
  - libitpp
- - pythonqwt5
+ - pyqwt5
  - scipy
  - uhd
  description: a complete OFDM implementation including GUI for reasearch and teaching
