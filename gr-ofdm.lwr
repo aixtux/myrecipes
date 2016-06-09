@@ -17,16 +17,16 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
-depends:
-- gnuradio
-- numpy
-- zeromq
-- libitpp
-- pythonqwt5
-- scipy
-- uhd
-description: a complete OFDM implementation including GUI for reasearch and teaching
-gitbranch: master
-inherit: cmake
-source: git+https://github.com/rwth-ti/gr-ofdm.git
+ category: common
+ depends:
+ - gnuradio
+ - numpy
+ - zeromq
+ - libitpp
+ - pythonqwt5
+ - scipy
+ - uhd
+ description: a complete OFDM implementation including GUI for reasearch and teaching
+ gitbranch: master
+ inherit: cmake
+ source: git+https://github.com/rwth-ti/gr-ofdm.git
